@@ -11,6 +11,8 @@ public class Solution {
                 //Complete this line
                 
                 System.out.printf("%-15s%03d%n",s1,x);//biçimlendirilmiş çıktılarda printf kullanılır
+                                    //%-15s , 15 basamak sola dayalı yaz
+                                    //%03d , girilen değer 3 basamaktan küçük ise sayının başına sayiyi 3 basamağa tamamlamak için 0 ekler 
             }
             System.out.println("================================");
 
