@@ -20,7 +20,11 @@ public class Main
                 
              }
         }
-        System.out.println(Arrays.toString(tempArr));
+        System.out.print("Tekrar eden sayilar : ");
+        for (int i = 0; i<tempArr.length; i++) {
+            if(tempArr[i] != 0)
+                System.out.print(" "+tempArr[i]);
+        }
        
     }   
 }
