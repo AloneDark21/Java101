@@ -1,3 +1,11 @@
+/*
+[2], 7, 3, 5, 8, 9, 4, 15, 6
+[2, 3], 7, 5, 8, 9, 4, 15, 6
+[2, 3, 4], 7, 5, 8, 9, 15, 6
+[2, 3, 4, 5], 7, 8, 9, 15, 6
+
+ilk dört adımı yazdırdık
+*/
 package InsertionSort;
 
 public class InsertionSort {
