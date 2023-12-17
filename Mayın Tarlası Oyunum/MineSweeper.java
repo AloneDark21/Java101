@@ -26,7 +26,6 @@ public class MineSweeper {
         int satir, sutun;//bunlar bizim gecici parametrelerimiz oyun boyunca bunlarla islemlerimizi yapacagız
         System.out.println("\n---> Oyun Basladi <---\n");
 
-
         int mayinsayisi = 0;
         while (true) {//mayına basana kadar sonsuz dongude oyunumuzu oynacagız
 
@@ -61,7 +60,6 @@ public class MineSweeper {
                 System.out.println("Hatalı satır veya sutun secimi yaptınız lutfen tekrar giris yapınız.");
                 continue;
             }
-
         }
     }
 
@@ -109,7 +107,6 @@ public class MineSweeper {
             System.out.print("  -");
         }
 
-
         System.out.println();
         for (int i = 0; i < arr.length; i++) {
             if (i >= 10)
@@ -132,7 +129,6 @@ public class MineSweeper {
                 mayinlarinKonumu[i][j] = " X";
             }
         }
-
     }
 
     public int mayınlarıKontrolEt(int satir, int sutun) {//burdada açtığımız kutucuga temas eden diger kutuları acıp temas eden mayın sayısını actıımız kutuya yazdırırız
@@ -162,5 +158,4 @@ public class MineSweeper {
         }
         return count;
     }
-
 }
