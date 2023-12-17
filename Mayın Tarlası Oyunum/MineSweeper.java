@@ -21,7 +21,7 @@ public class MineSweeper {
         mayinlariYerlestir();//fonksiyonu cagırdık acıklama asagıda
 
         //System.out.println("\n**********Mayınların Konumu**********\n");
-        printArr(mayinlarinKonumu);//dilerseniz mayınların konumlarını bu fonksiyonu cagırarak gorebilirsiniz
+        //printArr(mayinlarinKonumu);//dilerseniz mayınların konumlarını bu fonksiyonu cagırarak gorebilirsiniz
 
         int satir, sutun;//bunlar bizim gecici parametrelerimiz oyun boyunca bunlarla islemlerimizi yapacagız
         System.out.println("\n---> Oyun Basladi <---\n");
