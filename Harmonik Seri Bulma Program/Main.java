@@ -10,7 +10,7 @@ public class Main {
 
         for(int i = 1 ; i <= sayi ; i++)
         {
-            toplam += (1.0/i);//double bir değere atama yapmışsak işlem yaptığımız değerlerden en az bir tanesi double olamsı gerekir
+            toplam += (1.0/i);//double bir değere atama yapmışsak işlem yaptığımız değerlerden en az bir tanesi double olması gerekir
         }
         System.out.println(toplam);
     }
