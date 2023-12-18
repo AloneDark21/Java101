@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 
 public class MineSweeper {
-    int cols, rows, mayınSayisi;//cols, colon sutun inidisi; rows satır indisini belirtir
+    int cols, rows, mayınSayisi;//cols, colon sutun inidisini; rows satır indisini belirtir
     String[][] oyunTahatsi;
     String[][] mayinlarinKonumu;
     Scanner input = new Scanner(System.in);
